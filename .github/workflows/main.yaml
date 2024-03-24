@@ -13,8 +13,7 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'  # Specify the Python version you want to use, e.g., '3.9'
+        
 
       - name: Run Python program
         run: python index.py  # Replace 'index.py' with the path to your Python script
