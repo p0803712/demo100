@@ -22,5 +22,5 @@ jobs:
         pip install -r requirements.txt  # Replace 'requirements.txt' with your requirements file
 
     - name: Run Python script
-      run: python path/to/index.py  # Replace 'path/to/index.py' with your script's path
+      run:  index.py  # Replace 'path/to/index.py' with your script's path
 
